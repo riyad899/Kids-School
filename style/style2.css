@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.middle-section{
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+.sec-container{
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 879px;
+    border: 1px solid rgb(0, 255, 157);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+.sec-container h1{
+    margin-top: 60px;
+    line-height: 57.5px;
+    font-size: 46px;
+    font-family: 'Quicksand', sans-serif;
+}
+.card-div{
+    width: 1160px;
+    height: 481.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    /* border: 1px solid green; */
+}
+.card{
+    width: 367.8px;
+    height: 476.78px;
+    /* border: 1px solid salmon; */
+    border-radius:18.86px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card img{
+    padding-top: 115.54px;
+    width: 136.76px;
+
+}
+.card h2{
+    font-size: 24px;
+}
+.card p{
+    font-family: 'Raleway',sans-serif;
+    font-size: 15.09px;
+    line-height: 28.3px;
+}
+.card button{
+    font-size: 15.09px;
+    border: none;
+    font-weight: bold;
+}
+.btn-div button{
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    border: none;
+    border-radius: 30px;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+.btn-div button:hover{
+    background-color: rgb(197, 174, 131);
+}
+
