@@ -75,3 +75,25 @@
     background-color: rgb(197, 174, 131);
 }
 
+
+@media (max-width: 768px) {
+    .sec-container h1{
+      font-size: 26px;
+    }
+    .card-div{
+        margin-top: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec-container{
+        height: 2000px;
+    }
+    .card button{
+        margin-bottom: 20px;
+    }
+    .btn-div button{
+       display: none;
+    
+    }
+
+}
