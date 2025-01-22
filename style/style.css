@@ -62,7 +62,9 @@ font-size: 32px;
 .head-item ol li a{
   text-decoration: none;
   font-size: 20px;
+
 }
+
 .contact-btn{
   background-color: orange;
   border: none;
@@ -140,7 +142,7 @@ font-size: 32px;
   display: none;
 }
 .text-marque{
-  font-family: 'Macondo', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 30px;
   font-weight: 700;
 
