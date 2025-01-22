@@ -1,5 +1,6 @@
 /* Reset default browser styles */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 .quicksand-font {
   font-family: "Quicksand", serif;
@@ -25,7 +26,7 @@
     background: #FFFFFF;
     width: 1440px;
     height: 677px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 nav{
   justify-content: center;
@@ -138,7 +139,12 @@ font-size: 32px;
 .age-br{
   display: none;
 }
+.text-marque{
+  font-family: 'Macondo', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
 
+}
 
 
 
@@ -265,5 +271,10 @@ font-size: 32px;
 
   .age-br {
     display: inline;
+  }
+  .text-marque{
+   position: relative;
+   bottom: -200px;
+    width: 100%;
   }
 }

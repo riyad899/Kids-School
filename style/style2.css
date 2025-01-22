@@ -3,13 +3,12 @@
     background: #F5F5F5;
     display: flex;
     justify-content: center;
-    font-family: Arial, sans-serif;
 }
 .sec-container{
     background-color: #FFFFFF;
     width: 1440px;
     height: 879px;
-    border: 1px solid rgb(0, 255, 157);
+    /* border: 1px solid rgb(0, 255, 157); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,21 +78,23 @@
 @media (max-width: 768px) {
     .sec-container h1{
       font-size: 26px;
+
     }
     .card-div{
         margin-top: 400px;
         display: flex;
+        width: 100%;
         flex-direction: column;
     }
     .sec-container{
-        height: 2000px;
+        height: 1500px;
+        width: 100%;
     }
     .card button{
         margin-bottom: 20px;
     }
     .btn-div button{
        display: none;
-    
     }
 
 }
